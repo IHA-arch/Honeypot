@@ -39,12 +39,12 @@ fi
 sleep 0.5
 
 printf "\ninstall random2....\n"
-#pip3 install random2
+pip3 install random2
 
 
 mkdir /usr/share/honeypot_IHA
 cp honey.py /usr/share/honeypot_IHA
-cp index.html /usr/share/honeypot_IHA
+cp honeypotweb.py /usr/share/honeypot_IHA
 
 
 access() {
